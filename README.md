@@ -201,7 +201,7 @@ We also provide benchmark 0-shot and 5-shot results on a variety of NLP datasets
 - BLiMP (`blimp_*`)
 - MMLU (`hendrycksTest*`)
 
-Evaluations were performed in GPT-NeoX using the [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness), and are viewable by model and step at `results/json/v1.1-evals/*` in this repository.
+Evaluations were performed in GPT-NeoX using the [LM Evaluation Harness](https://github.com/EleutherAI/lm-evaluation-harness), and are viewable by model and step at `evals/json/v1.1-evals/*` in this repository.
 
 ## Reproducing Memorization Results
 The memorization evaluation script `memorization/eval_memorization.py` assumes that you are running the script in a distributed process, ideally in slurm. If you want to reproduce the evaluation, consider the following steps.
